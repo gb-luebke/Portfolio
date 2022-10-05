@@ -8,4 +8,7 @@
  - Biblioteca mathjs
  - Hooks: useState
  - React Icons
+ 
+ **Imagens:**
 
+![Screenshot - Projeto Calculadora](https://user-images.githubusercontent.com/99328738/194146609-ee29843a-90c5-4d88-8c18-75cfe86b3acd.PNG)
