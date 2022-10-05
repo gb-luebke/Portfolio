@@ -1,0 +1,40 @@
+#footer {
+    height: 7vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 20px;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+}
+
+.name {
+    font-weight: 600;
+    margin: 0px 0px 0px 5px;
+}
+
+.icons {
+    margin: 0px 5px -25px 5px;
+    font-size: 30px;
+    transition: 0.7s;
+}
+
+.icons:hover {
+    position: relative;
+    bottom: 10px;
+    color: #FF5D00;
+    transition: 0.7s;
+    box-shadow: 4px 4px #FF5D00;
+}
+
+#footer-box {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+

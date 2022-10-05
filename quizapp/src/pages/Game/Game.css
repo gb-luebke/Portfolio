@@ -1,0 +1,87 @@
+#game {
+    width: 100vw;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#game p {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0px 10px 0px;
+}
+
+#game span {
+    font-weight: 700;
+}
+
+.wordContainer {
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 20px solid #FF8D27;
+    display: flex;
+    border-radius: 10px;
+}
+
+.letter,
+.blankSquare {
+  font-size: 70px;
+  line-height: 1.5;
+  border: 3px solid #000;
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.letterContainer p {
+  margin-bottom: 1.2em;
+}
+
+.letterContainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.letterContainer input {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 1em;
+}
+  
+#gameover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+}
+
+#gameover h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+#gameover h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+#gameover span {
+    display: block;
+}
+
+.btn-restart {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}

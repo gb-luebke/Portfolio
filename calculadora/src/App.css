@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.app-container {
+    height: 91vh;
+}
+
+.app-container h2 {
+    color: rgb(9, 5, 58);
+    text-shadow: 2px 2px rgb(68, 89, 134);
+}

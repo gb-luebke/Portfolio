@@ -1,0 +1,105 @@
+/*------------------------------ Tasks ------------------------------*/
+#tasks {
+    padding: 10px;
+    width: 768px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#tasks form {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#tasks h2 {
+    color: #E3E3E3;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px #8F8F8F;
+    background-color: #7AA7C8;
+    border-radius: 10px;
+}
+
+#tasks ul {
+    padding: 10px;
+    border: 1px solid #001e35;
+    background-color: #E3E3E3;
+    border-radius: 10px;
+}
+
+#tasks li {
+    padding: 5px;
+    color: #000;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    word-break: break-all;
+}
+
+#tasks li:checked {
+    text-decoration: line-through;
+}
+
+#tasks span {
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+}
+
+/*------------------------------ Btn ------------------------------*/
+.btn-delete {
+    font-size: 20px;
+    color: #000;
+    transition: 0.5s;
+    padding: 0px 10px 0px 15px;
+    border: none;
+    background-color: #E3E3E3;
+}
+
+.btn-delete:hover {
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+}
+
+/*------------------------------ Input ------------------------------*/
+.input {
+    font-size: 20px;
+    color: #000;
+    background-color: #C7C7C7;
+    padding: 0px 5px 0px 5px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #999999;
+}
+
+.input:focus {
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.input-btn {
+    color:  #000;
+    border: 1px solid #000;
+    background-color: #E3E3E3;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    margin-left: 10px;
+}
+
+.input-btn:hover {
+    transition: 0.5s;
+    background-color: #000;
+    color: #E3E3E3;
+    border: 1px solid #E3E3E3;
+}
+

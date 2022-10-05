@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 20px;
+    color: rgb(9, 5, 58);
+    background-color:rgb(68, 89, 134);
+    border: 1px solid rgb(9, 5, 58);
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    color: rgb(174, 174, 211);
+    background-color:rgb(9, 5, 58);
+    border: 2px solid rgb(174, 174, 211);
+    cursor: pointer;
+}
+
+.btn-keys {
+    height: 70px;
+    width: 70px;
+    margin: 5px 5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.btn-keys-double {
+    height: 70px;
+    width: 150px;
+    margin: 5px 5px;
+    font-size: 30px;
+}
+
+
+/* rgb(53, 164, 228), rgb(68, 89, 134), rgb(38, 13, 126 */

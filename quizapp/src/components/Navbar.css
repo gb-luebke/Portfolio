@@ -1,0 +1,14 @@
+#navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 3vw;
+}
+
+.btn-inicio {
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 500;
+}

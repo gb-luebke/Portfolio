@@ -1,0 +1,46 @@
+#footer {
+  height: 5vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 20px;
+  color: #D7E6F3;
+}
+
+#footer a {
+  color: #D7E6F3;
+}
+
+.name {
+  font-weight: 600;
+  margin: 0px 0px 0px 5px;
+}
+
+.name:hover {
+  color: #002C7C;
+  transition: 0.7s;
+}
+
+.icons {
+  margin: 0px 5px -25px 5px;
+  font-size: 30px;
+  transition: 0.7s;
+}
+
+.icons:hover {
+  position: relative;
+  bottom: 10px;
+  color: #002C7C;
+  transition: 0.7s;
+  box-shadow: 4px 4px #002C7C;
+}
+
+#footer-box {
+  width: 100vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+}
+
