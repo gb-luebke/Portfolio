@@ -1,4 +1,4 @@
-# Portifólio
+# Portfólio
 
 Este é o meu portifólio de projetos - Desenvolvedor Web
 
