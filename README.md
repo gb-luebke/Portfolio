@@ -1,6 +1,6 @@
 # Portfólio
 
-Este é o meu portifólio de projetos - Desenvolvedor Web
+Este é o meu portfólio de projetos - Desenvolvedor Web
 
 Cada pasta possui um projeto diferente, com detalhes em seu arquivo README.
 
