@@ -1,0 +1,50 @@
+/*-------------------- About  --------------------*/
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 145px 0px;
+    border: 3px solid rgba(255,64,0,0.3);
+    padding: 20px;
+}
+
+#about p {
+    font-size: 22px
+}
+
+/*-------------------- Media Queries  --------------------*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   #about p {
+    font-size: 16px;
+    width: 300px;
+   }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #about p {
+        font-size: 18px;
+        width: 500px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #about p {
+        font-size: 20px;
+        width: 600px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #about p {
+        font-size: 22px;
+        width: 800px;
+    }
+}

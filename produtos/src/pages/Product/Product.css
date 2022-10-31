@@ -1,0 +1,154 @@
+/*-------------------- Product --------------------*/
+
+#product {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid rgba(255,64,0,0.3);
+    border-radius: 5px;
+    width: 550px;
+}
+
+#product img {
+    height: 280px;
+    width: 280px;
+}
+
+#product h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+/*-------------------- Price --------------------*/
+
+.price {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+/*-------------------- Btn  --------------------*/
+
+.btn-voltar {
+    text-decoration: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #2b2b2b;
+    border: 1px solid rgba(43, 43, 43, .3);
+    margin-bottom: 4px;
+    transition: 0.8s;
+    font-weight: 500;
+}
+
+.btn-voltar:hover {
+    border: 1px solid rgba(43, 43, 43, 1);
+    transition: 0.8s;
+    color: #FF5D27;
+}
+
+.btn-cart {
+    border: 1px solid #FF5D27;
+    color: #FF5D27;
+    padding: 5px 20px;
+    background-color: transparent;
+    transition: 0.8s;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-cart:hover {
+    transition: 0.8s;
+    background-color: #FF5D27;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/*-------------------- Description --------------------*/
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid rgba(255,64,0,0.3);
+    margin-bottom: 20px;
+}
+
+.description-title {
+    font-size: 20px;
+}
+
+.description-p {
+    font-size: 16px;
+}
+
+/*-------------------- Media Queries --------------------*/
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    #product {
+        width: 350px;
+    }
+    
+    #product img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    #product h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    
+    .price {
+        font-size: 20px;
+    }
+
+    .description-title {
+        font-size: 14px;
+    }
+    
+    .description-p {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    #product {
+        width: 450px;
+    }
+    
+    #product img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    #product h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    
+    .price {
+        font-size: 20px;
+    }
+
+    .description-title {
+        font-size: 14px;
+    }
+    
+    .description-p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,58 @@
+/*-------------------- Products --------------------*/
+
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#products h2 {
+    margin-top: 10px;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+/*-------------------- Title --------------------*/
+
+.title {
+    font-size: 28px;
+}
+
+/*-------------------- Search Form --------------------*/
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    padding: 5px 0px;
+    width: 230px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(43, 43, 43, .3);
+    background-color: transparent;
+}
+
+/*-------------------- Btn --------------------*/
+
+.btn-search {
+    border: 1px solid #FF5D27;
+    color: #FF5D27;
+    padding: 4px 20px;
+    background-color: transparent;
+    transition: 0.8s;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.btn-search:hover {
+    transition: 0.8s;
+    background-color: #FF5D27;
+    border: 1px solid #fff;
+    color: #fff;
+}

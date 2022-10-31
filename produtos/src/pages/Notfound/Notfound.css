@@ -1,0 +1,14 @@
+/*-------------------- Notfound  --------------------*/
+
+#notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 180px 0px;
+}
+
+#notfound img {
+    margin-bottom: 10px;
+}

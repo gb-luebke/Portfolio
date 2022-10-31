@@ -1,0 +1,62 @@
+/*-------------------- Register --------------------*/
+
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgba(255,64,0,0.3);
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 40px 0px;
+}
+
+#register h2 {
+    font-size: 28px;
+}
+
+#register p {
+    font-size: 18px;
+}
+
+#register form {
+    display: flex;
+    flex-direction: column;
+}
+
+#register label {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+#register input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(43, 43, 43, .3);
+    background-color: transparent;
+    width: 500px;
+    margin: 5px 0px;
+}
+
+/*-------------------- Media Queries --------------------*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    #register h2 {
+        font-size: 22px;
+    }
+    
+    #register p {
+        font-size: 16px;
+    }
+
+    #register input {
+        width: 300px;
+    }
+    
+ }
+ 
+

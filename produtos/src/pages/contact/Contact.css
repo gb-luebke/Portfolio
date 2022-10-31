@@ -1,0 +1,62 @@
+/*-------------------- Contact  --------------------*/
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 100px 0px;
+    border: 3px solid rgba(255,64,0,0.3);
+    padding: 20px;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
+.contact-channels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid rgba(255,64,0,0.3);
+    margin: 20px;
+}
+
+/*-------------------- Media Queries  --------------------*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #contact {
+        display: flex;
+        text-align: center;
+        width: 350px;
+    }
+
+    #contact p {
+     font-size: 16px;
+    }
+ }
+ 
+ /* Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     #contact p {
+         font-size: 18px;
+     }
+ }
+ 
+ /* Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     #contact p {
+         font-size: 20px;
+     }
+ }
+ 
+ /* Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     #contact p {
+         font-size: 22px;
+     }
+ }

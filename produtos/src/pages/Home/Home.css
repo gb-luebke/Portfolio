@@ -1,0 +1,138 @@
+/*-------------------- Home  --------------------*/
+
+#home {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+#home img {
+    height: 480px;
+    width: 480px;
+}
+
+#home h1 {
+    font-size: 30px;
+    text-shadow: 1px 1px #B7B7B7;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+/*-------------------- Home2  --------------------*/
+
+#home2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 80px 0px 0px 0px;
+}
+
+#home2 h2 {
+    font-size: 28px;
+    text-shadow: 1px 1px solid #b7b7b7;
+    padding-bottom: 10px;
+}
+
+#home2 span {
+    border-top: 4px solid #FF5D27;
+    padding: 0px 20px;
+    margin-top: -10px;
+    color: transparent;
+    border-radius: 2px;
+}
+
+/*-------------------- Home3  --------------------*/
+
+#home3 {
+    margin-top: 60px;
+    margin-bottom: 40px; 
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home3 img {
+    rotate: 10deg;
+}
+
+#home3 h2 {
+    font-size: 50px;
+    text-shadow: 1px 1px #B7B7B7;
+}
+
+/*-------------------- Btn  --------------------*/
+
+.btn-home {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+    background-color: #FF5D27;
+    transition: 0.8s;
+    font-weight: 400;
+}
+
+.btn-home:hover {
+    transition: 0.8s;
+    background-color: transparent;
+    border: 1px solid #FF5D27;
+    color: #FF5D27;
+}
+
+/*-------------------- New Products  --------------------*/
+
+.new-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*-------------------- Media Queries  --------------------*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #home h1 {
+        font-size: 26px;
+    }
+
+    #home p {
+        font-size: 18px;
+    }
+    
+    #home img {
+        display: none;
+    }
+
+    #home3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #home3 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #home3 h2 {
+        font-size: 30px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #home h1 {
+        font-size: 28px;
+    }
+
+    #home p {
+        font-size: 20px;
+    }
+    
+}
