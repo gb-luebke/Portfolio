@@ -1,4 +1,4 @@
-# E-commerce
+# React Store
 
 **Descrição:**
  - Este orojeto consiste em um site e-commerce. Os produtos estão armazenados no banco de dados do firestore. O site utiliza também o authentication do firebase para realizar o cadastro e login no sistema. Pode-se visualizar os produtos, clicar para ver seus detalhes e adicioná-los ao carrinho de compras. O site possui design responsivo para todos os tamanhos de tela, inclusive celulares. 
